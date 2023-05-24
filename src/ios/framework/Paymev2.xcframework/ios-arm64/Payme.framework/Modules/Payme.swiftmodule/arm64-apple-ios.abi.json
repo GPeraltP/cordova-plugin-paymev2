@@ -10619,9 +10619,18 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -10692,7 +10701,7 @@
             ],
             "declKind": "Constructor",
             "usr": "c:@M@Payme@objc(cs)PaymePersonData(im)initWithFirstName:lastName:email:addrLine1:addrLine2:countryCode:countryNumber:zip:city:state:mobilePhone:homePhone:workPhone:",
-            "mangledName": "$s5Payme0A10PersonDataC9firstName04lastE05email9addrLine10H5Line211countryCode0K6Number3zip4city5state11mobilePhone04homeR004workR0ACSS_S11SSgAQtcfc",
+            "mangledName": "$s5Payme0A10PersonDataC9firstName04lastE05email9addrLine10H5Line211countryCode0K6Number3zip4city5state11mobilePhone04homeR004workR0ACSS_S4SSgS6SA2Qtcfc",
             "moduleName": "Payme",
             "objc_name": "initWithFirstName:lastName:email:addrLine1:addrLine2:countryCode:countryNumber:zip:city:state:mobilePhone:homePhone:workPhone:",
             "declAttributes": [
@@ -19026,56 +19035,70 @@
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 943,
       "length": 31,
       "value": "\"electronic_commerce_indicator\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 951,
+      "offset": 995,
       "length": 46,
       "value": "\"cardholder_authentication_verification_value\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1027,
+      "offset": 1071,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 899,
+      "offset": 1124,
+      "length": 32,
+      "value": "\"three_ds_server_transaction_id\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
+      "kind": "StringLiteral",
+      "offset": 943,
       "length": 31,
       "value": "\"electronic_commerce_indicator\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 951,
+      "offset": 995,
       "length": 46,
       "value": "\"cardholder_authentication_verification_value\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1027,
+      "offset": 1071,
       "length": 16,
       "value": "\"transaction_id\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1124,
+      "length": 32,
+      "value": "\"three_ds_server_transaction_id\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
+      "kind": "StringLiteral",
+      "offset": 1616,
       "length": 29,
       "value": "\"verifika_commerce_indicator\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargesAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1503,
+      "offset": 1616,
       "length": 29,
       "value": "\"verifika_commerce_indicator\""
     },
@@ -19154,7 +19177,7 @@
       "kind": "FloatLiteral",
       "offset": 243,
       "length": 4,
-      "value": "15.0"
+      "value": "18.0"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Networking\/PIntentServiceRepository.swift",
@@ -19346,6 +19369,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Utils\/PaymeLog.swift",
+      "kind": "StringLiteral",
+      "offset": 1588,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Charges\/Request\/ChargeLocation.swift",
       "kind": "StringLiteral",
       "offset": 411,
@@ -19390,14 +19420,7 @@
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigServices.swift",
       "kind": "StringLiteral",
-      "offset": 1019,
-      "length": 14,
-      "value": "\"acquirer_key\""
-    },
-    {
-      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigServices.swift",
-      "kind": "StringLiteral",
-      "offset": 1019,
+      "offset": 1439,
       "length": 14,
       "value": "\"acquirer_key\""
     },
@@ -19414,6 +19437,13 @@
       "offset": 1571,
       "length": 49,
       "value": "\"three_ds_requestor_challenge_indicator_priority\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigServices.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 14,
+      "value": "\"acquirer_key\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigServices.swift",
@@ -19530,56 +19560,70 @@
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 978,
       "length": 26,
       "value": "\"three_ds_server_trans_id\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 1030,
+      "length": 27,
+      "value": "\"directory_server_trans_id\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
       "length": 14,
       "value": "\"trans_status\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1186,
       "length": 21,
       "value": "\"challenge_indicator\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1250,
       "length": 30,
       "value": "\"challenge_indicator_priority\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 936,
+      "offset": 978,
       "length": 26,
       "value": "\"three_ds_server_trans_id\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 1030,
+      "length": 27,
+      "value": "\"directory_server_trans_id\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
       "length": 14,
       "value": "\"trans_status\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1186,
       "length": 21,
       "value": "\"challenge_indicator\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/PaymentIntent\/Request\/PIntentServiceAuthentication.swift",
       "kind": "StringLiteral",
-      "offset": 1155,
+      "offset": 1250,
       "length": 30,
       "value": "\"challenge_indicator_priority\""
     },
@@ -19936,84 +19980,98 @@
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 697,
       "length": 13,
       "value": "\"id_commerce\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 739,
       "length": 15,
       "value": "\"commerce_name\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 781,
       "length": 13,
       "value": "\"acquirer_id\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 831,
       "length": 16,
       "value": "\"dynamic_fields\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 876,
+      "length": 22,
+      "value": "\"merchant_information\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
       "length": 12,
       "value": "\"currencies\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 1025,
       "length": 22,
       "value": "\"cryptographic_assets\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 657,
+      "offset": 697,
       "length": 13,
       "value": "\"id_commerce\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 699,
+      "offset": 739,
       "length": 15,
       "value": "\"commerce_name\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 741,
+      "offset": 781,
       "length": 13,
       "value": "\"acquirer_id\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 791,
+      "offset": 831,
       "length": 16,
       "value": "\"dynamic_fields\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 853,
+      "offset": 876,
+      "length": 22,
+      "value": "\"merchant_information\""
+    },
+    {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
       "length": 12,
       "value": "\"currencies\""
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Configuration\/ConfigurationData.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 1025,
       "length": 22,
       "value": "\"cryptographic_assets\""
     },
@@ -20333,6 +20391,13 @@
       "value": "\"swipableHandler\""
     },
     {
+      "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/View\/ResultScreen\/ResultScreenView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 621,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Scoring\/Request\/ScoringPhone.swift",
       "kind": "StringLiteral",
       "offset": 243,
@@ -20398,7 +20463,7 @@
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Utils\/Extension\/StringExtension.swift",
       "kind": "IntegerLiteral",
-      "offset": 3045,
+      "offset": 3072,
       "length": 1,
       "value": "2"
     },
@@ -23452,7 +23517,7 @@
       "kind": "FloatLiteral",
       "offset": 241,
       "length": 3,
-      "value": "4.0"
+      "value": "7.0"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Model\/Scoring\/Request\/ScoringAddressRequest.swift",
@@ -23695,42 +23760,42 @@
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Controllers\/PaymeMainController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1508,
+      "offset": 1618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Controllers\/PaymeMainController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1551,
+      "offset": 1661,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Controllers\/PaymeMainController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1649,
+      "offset": 1759,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Controllers\/PaymeMainController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1692,
+      "offset": 1802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Controllers\/PaymeMainController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1730,
+      "offset": 1840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Controllers\/PaymeMainController.swift",
       "kind": "BooleanLiteral",
-      "offset": 59352,
+      "offset": 61863,
       "length": 5,
       "value": "false"
     },
@@ -24467,7 +24532,7 @@
       "kind": "FloatLiteral",
       "offset": 255,
       "length": 3,
-      "value": "6.0"
+      "value": "9.0"
     },
     {
       "filePath": "\/Users\/levissilvestre\/iOSProjects\/payme-new-ios\/Payme\/Payme\/Networking\/ScoringServiceRepository.swift",

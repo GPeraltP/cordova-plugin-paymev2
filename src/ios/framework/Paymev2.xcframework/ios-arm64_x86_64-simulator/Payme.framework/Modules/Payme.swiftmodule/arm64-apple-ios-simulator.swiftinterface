@@ -331,7 +331,7 @@ public enum SwiftyRSA {
   public static func generateRSAKeyPair(sizeInBits size: Swift.Int) throws -> (privateKey: Payme.PrivateKey, publicKey: Payme.PublicKey)
 }
 @objc public class PaymePersonData : ObjectiveC.NSObject {
-  @objc public init(firstName: Swift.String, lastName: Swift.String, email: Swift.String, addrLine1: Swift.String, addrLine2: Swift.String, countryCode: Swift.String, countryNumber: Swift.String, zip: Swift.String, city: Swift.String, state: Swift.String, mobilePhone: Swift.String, homePhone: Swift.String? = nil, workPhone: Swift.String? = nil)
+  @objc public init(firstName: Swift.String, lastName: Swift.String, email: Swift.String, addrLine1: Swift.String, addrLine2: Swift.String? = nil, countryCode: Swift.String, countryNumber: Swift.String, zip: Swift.String, city: Swift.String, state: Swift.String, mobilePhone: Swift.String, homePhone: Swift.String? = nil, workPhone: Swift.String? = nil)
   @objc deinit
 }
 extension Payme.DropDown {

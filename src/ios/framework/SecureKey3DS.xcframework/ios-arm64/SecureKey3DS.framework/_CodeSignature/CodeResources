@@ -22,7 +22,7 @@
 		</data>
 		<key>Modules/SecureKey3DS.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		3QMBe+uYnQirhMWJh9vvkZmhcyE=
+		/P144+vuBsImgbIvstgoLtnP7ZY=
 		</data>
 		<key>Modules/SecureKey3DS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SecureKey3DS.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		emtr7mWGtF5YKQO5aiMBU9Cdeek=
+		Q09DjWsH/UVeUK2InZSFT1s9Ero=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q9nAyE8gFyblloRsGjd+JFVg9/SvXnjPhyo/sXG9lio=
+			OBOuS0AUfCBhdvk1Cp96Z2aFopifGhTU9z+8dIbTT28=
 			</data>
 		</dict>
 		<key>Modules/SecureKey3DS.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -140,7 +140,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HDcpwVln/tMB9rt7b7ug07OZZaB2biIoXZTkXYiRCik=
+			rwY2JY1wnd/fP7SwFx1iQgPA+X6J3V9HLqg1qU52DZg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

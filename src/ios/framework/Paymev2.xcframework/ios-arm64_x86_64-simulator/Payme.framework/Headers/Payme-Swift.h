@@ -465,7 +465,7 @@ SWIFT_CLASS("_TtC5Payme18PaymeOperationData")
 
 SWIFT_CLASS("_TtC5Payme15PaymePersonData")
 @interface PaymePersonData : NSObject
-- (nonnull instancetype)initWithFirstName:(NSString * _Nonnull)firstName lastName:(NSString * _Nonnull)lastName email:(NSString * _Nonnull)email addrLine1:(NSString * _Nonnull)addrLine1 addrLine2:(NSString * _Nonnull)addrLine2 countryCode:(NSString * _Nonnull)countryCode countryNumber:(NSString * _Nonnull)countryNumber zip:(NSString * _Nonnull)zip city:(NSString * _Nonnull)city state:(NSString * _Nonnull)state mobilePhone:(NSString * _Nonnull)mobilePhone homePhone:(NSString * _Nullable)homePhone workPhone:(NSString * _Nullable)workPhone OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFirstName:(NSString * _Nonnull)firstName lastName:(NSString * _Nonnull)lastName email:(NSString * _Nonnull)email addrLine1:(NSString * _Nonnull)addrLine1 addrLine2:(NSString * _Nullable)addrLine2 countryCode:(NSString * _Nonnull)countryCode countryNumber:(NSString * _Nonnull)countryNumber zip:(NSString * _Nonnull)zip city:(NSString * _Nonnull)city state:(NSString * _Nonnull)state mobilePhone:(NSString * _Nonnull)mobilePhone homePhone:(NSString * _Nullable)homePhone workPhone:(NSString * _Nullable)workPhone OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1129,7 +1129,7 @@ SWIFT_CLASS("_TtC5Payme18PaymeOperationData")
 
 SWIFT_CLASS("_TtC5Payme15PaymePersonData")
 @interface PaymePersonData : NSObject
-- (nonnull instancetype)initWithFirstName:(NSString * _Nonnull)firstName lastName:(NSString * _Nonnull)lastName email:(NSString * _Nonnull)email addrLine1:(NSString * _Nonnull)addrLine1 addrLine2:(NSString * _Nonnull)addrLine2 countryCode:(NSString * _Nonnull)countryCode countryNumber:(NSString * _Nonnull)countryNumber zip:(NSString * _Nonnull)zip city:(NSString * _Nonnull)city state:(NSString * _Nonnull)state mobilePhone:(NSString * _Nonnull)mobilePhone homePhone:(NSString * _Nullable)homePhone workPhone:(NSString * _Nullable)workPhone OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFirstName:(NSString * _Nonnull)firstName lastName:(NSString * _Nonnull)lastName email:(NSString * _Nonnull)email addrLine1:(NSString * _Nonnull)addrLine1 addrLine2:(NSString * _Nullable)addrLine2 countryCode:(NSString * _Nonnull)countryCode countryNumber:(NSString * _Nonnull)countryNumber zip:(NSString * _Nonnull)zip city:(NSString * _Nonnull)city state:(NSString * _Nonnull)state mobilePhone:(NSString * _Nonnull)mobilePhone homePhone:(NSString * _Nullable)homePhone workPhone:(NSString * _Nullable)workPhone OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
